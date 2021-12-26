@@ -1,7 +1,7 @@
 ## mvn project creation command [https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html]
 mvn archetype:generate -DgroupId=in.home.app -DartifactId=my-multithreaded-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
 
-## Add following plugin to build to create runnable jar
+## Add following plugin and configuration to build and create runnable jar
 ```
 <plugin>
 	<!-- Build an executable JAR -->
